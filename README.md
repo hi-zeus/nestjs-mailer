@@ -209,5 +209,3 @@ This implementation uses handlebars as a view-engine and outlook as the smtp.
 
 Dotenv module has been used for sender's email and password keep. This kit is implemented with outlook smtp, while we can make changes in the `app.module.ts` configurations for other services. As the nestjs-mailer is built on top of nodemailer, the required configurations can be found here <a href="https://nodemailer.com/smtp/">Nodemailer / smtp</a>. 
 
-*Special thanks to https://github.com/leemunroe/responsive-html-email-template for providing email-templates*
-
